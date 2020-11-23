@@ -1,0 +1,38 @@
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container">
+      <a href="index.html" class="hero-logo mt-5" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a>
+      <h1 data-aos="zoom-in">¡Eres Bienvenido!</h1>
+        <form class="form-signin">
+      <h3 data-aos="zoom-in"> Puedes registrarte</h3>
+      <h2 data-aos="fade-up">Disfruta de nuestras promociones</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+       
+          <label for="nombrec" class="sr-only"></label>
+          <input  autocomplete="off" type="text" id="nombrec"  name="nombrec"class="form-control mt-3" placeholder="Nombre" required autofocus>
+      
+        </div>
+        <div class="col-md-6">
+          
+          <label for="apellidoc" class="sr-only"></label>
+          <input  autocomplete="off" type="text" name="apellidoc" id="apellidoc" class="form-control mt-3" placeholder="Apellido" required autofocus>
+         
+        </div>  
+      </div>
+    
+      <label for="email" class="sr-only"></label>
+      <input  autocomplete="off" id="email" name="email" type="email"  class="form-control mt-3" placeholder="Correo electronico" required autofocus>
+     
+      <label for="password" class="sr-only">Password</label>
+      <input  autocomplete="off" type="password" id="password" name="password" class="form-control mt-3" placeholder="Contraseña" required>
+      
+      <div class="checkbox mb-3">
+      </div>
+      <button  (click)="registrado()" name="clientes" id="clientes" class="btn btn-lg btn-primary btn-block mt-5 mb-3" >Registrar</button>
+      <p>¿Ya estás registrado? entonces <a routerLink="../Login">Inicia sesion</a> </p> 
+      <!-- <p class="mt-5 mb-3 text-muted">&copy;</p> -->
+    </form>
+    </div>
+  </section><!-- End Hero --> 

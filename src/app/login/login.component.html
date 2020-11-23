@@ -1,0 +1,28 @@
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div class="hero-container">
+    <a href="index.html" class="hero-logo mt-5" data-aos="zoom-in"><img src="../img/hero-logo.png" alt=""></a>
+    <h1 data-aos="zoom-in">Bienvenido</h1>
+      <form class="form-signin">
+    <h3 data-aos="zoom-in"> Inicia Sesion</h3>
+  
+  <div class="row">
+      <label for="email" class="sr-only"></label>
+      <input data-aos="fade-up" autocomplete="off" type="email" name="email" id="email" class="form-control mt-3" placeholder="Correo electronico" required autofocus>
+     
+      <label for="password" class="sr-only">Password</label>
+      <input  type="password" name="password" id="password" class="form-control mt-3" placeholder="Contraseña" required>
+      
+  </div>
+   
+    <div class="checkbox mb-3">
+      <label data-aos="zoom-in" >
+        <input class="mt-3" type="checkbox" value="remember-me"> Recuerdame
+      </label>
+    </div>
+    <button   (click)="gohome()" name="login" id="login" class="btn btn-block btn-primary mb-4" >Iniciar Sesion</button>
+    <p>No tienes cuenta, entonces <a routerLink="../Register">registrate</a></p>
+    <p class="mt-5 mb-3 text-muted">&copy;</p>
+  </form>
+  </div>
+</section><!-- End Hero --> 
