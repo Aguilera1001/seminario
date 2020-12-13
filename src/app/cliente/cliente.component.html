@@ -70,28 +70,26 @@
             <table class="table">
                 <thead class="thead-dark">
                   <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Cliente</th>
-                    <th scope="col">Categoría</th>
-                    <th scope="col">Producto</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Subtotal</th>
+                    <th>Cliente</th>
+                    <th>Apellido</th>
+                    <!-- <th scope="col">Producto</th> -->
+                    <!-- <th scope="col">Cantidad</th> -->
+                    <!-- <th scope="col">Precio</th> -->
+                    <!-- <th scope="col">Subtotal</th>
                     <th scope="col">ISV</th>
-                    <th scope="col">Total</th>
+                    <th scope="col">Total</th> -->
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Carlos Guillen</td>
-                    <td>Guitarras</td>
-                    <td>Guitarra Electroacústica Gibson</td>
+                  <tr *ngFor="let registro of registroList">
+                    <td>{{ registro.nombre }}</td>
+                    <td>{{ registro.apellido }}</td>
+                    <!-- <td>Guitarra Electroacústica Gibson</td>
                     <td>2</td>
                     <td>L. 8,000.00</td>
                     <td>L. 16,000.00</td>
                     <td>L. 2,400.00</td>
-                    <td>L. 18,400.00</td>
+                    <td>L. 18,400.00</td> -->
                   </tr>
                   <!-- <tr>
                     <th scope="row">2</th>

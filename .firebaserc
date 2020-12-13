@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "seminario-c284a"
+  },
+  "targets": {
+    "seminario-c284a": {
+      "hosting": {
+        "angular8": [
+          "seminario-c284a"
+        ]
+      }
+    }
+  }
+}

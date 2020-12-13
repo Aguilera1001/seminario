@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { MarcasComponent } from './marcas/marcas.component';
-import { PromocionesComponent } from './promociones/promociones.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { GuitarrasComponent } from './guitarras/guitarras.component';
 import { PianosComponent } from './pianos/pianos.component';
@@ -20,7 +19,6 @@ const routes: Routes = [
   {path:'Inicio',component:InicioComponent},
   {path:'Categorias',component:CategoriasComponent},
   {path:'Marcas',component:MarcasComponent},
-  {path:'Promociones',component:PromocionesComponent},
   {path:'Contactanos',component:ContactanosComponent},
   {path:'Guitarras',component:GuitarrasComponent},
   {path:'Pianos',component:PianosComponent},
